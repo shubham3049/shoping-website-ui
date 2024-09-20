@@ -1,0 +1,308 @@
+* {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+/*  nav section */
+.navbar1 {
+    background: rgb(0, 0, 0);
+    color: white;
+    width: 100%;
+    height: 60px;
+    /* navbar ka sara content line pe aa jayega */
+    display: flex;  
+    /* address wala contect navbar ka center meh aa jayega                 */
+    align-items: center;            
+}
+
+.amazon-logo {
+    position: relative;
+    
+    width: 128px;
+    height: 50px;
+    display: inline-block;
+    /* 'in-line' se box sb ek line pe aa jayega */
+    top: 5px;
+}
+
+.amazon-logo img{
+    width: 115px;
+    height: 50px;
+}
+
+.nav-address {
+    
+    width: 66px;
+    height: 20px;
+    color: white;
+    display: block;
+    left: 50px;
+}
+
+.location-icon{
+    display: flex;
+    align-items: center;
+}
+
+
+.first-address{
+    margin-left: 11px;
+    color: silver;
+    font-size: 0.8rem;
+}
+
+.second-address{
+    font-size: 0.9rem;
+}
+
+.nav-search {
+    border-radius: 7px;
+    display: flex;
+    margin: 7px;
+    padding: 2px;
+    width: 540px;
+    height: 40px;
+    text-align: center;
+}
+
+.nav-search:hover{
+    border: 2px solid rgb(233, 143, 7);
+}
+
+.select-btn {
+    border-radius: 7px;
+    width: 40px;
+    height: 40px;
+}
+
+.searchbar{
+    border-radius: 7px;
+    width: 100%;
+    height: 34px;
+
+}
+.search-btn{
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: rgb(247, 150, 6);
+    width: 45px;
+    display: flex;
+    justify-content: center;         /* context ko horizontal center meh le ayega*/
+    align-items: center;             /* context ko vertical center meh le ayega*/
+}
+
+.nav-right {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.cart {
+    position: absolute;
+    right: 5px;
+}
+.language{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.signin{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+     width: 90px; 
+     height: 53px; 
+    top: 18px;
+    font-size: 0.7rem;
+}
+
+.returns{
+    width: 76px;
+    position: absolute;
+   
+    right: 60px;
+}
+
+/* panel section */
+.panel{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 5px;
+    background-color:  #222f3d;
+    color: white;
+    
+}
+.panel a:hover{
+    border: 1px solid white;
+}
+.panel-all{
+    position: absolute;
+    left: 0px;
+}
+
+.panel-right p{
+    position: absolute;
+    right: 0px;
+}
+.panel-fill{
+    display: flex;
+
+}
+.panel-fill a{
+    text-decoration: none;
+    position: relative;
+    right: 154px;
+    color: white;
+    padding: 6px;
+    width: 104px;
+    height: 28px;
+}
+.herosection{
+    background-image: url("./hero_image.jpg");
+    background-size: cover;
+   
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.heromessage{
+    color: black;
+    background: white;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.heromessage a{
+    text-decoration: none;
+    color: #007185;
+}
+
+/*  box section for shoping */
+.box-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;            /* box box ke bich meh spacing ke liye*/
+    background: #e2e7e6;
+}
+
+.box{
+    width: 23%;
+    height: 400px;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.box-img{
+    background-size: cover;
+    height: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 300px;
+}
+
+.box a{
+    color: #007185
+}
+
+/*  back to top box */
+
+.footer{
+    margin-top: 10px;
+}
+
+.backtotop{
+    background-color: #37475a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100% ;
+    height: 50px;
+    
+}
+
+.backtotop a{
+    color: white;
+    text-decoration: none;
+}
+
+/* box container2 */
+
+.box-container2{
+    background-color:  #222f3d;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;            /* box box ke bich meh spacing ke liye*/
+    
+}
+
+.footer-box{
+    width: 23%;
+    height: 400px;
+    background-color: #222f3d;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.footer-box a{
+    text-decoration: none;
+}
+
+.footer-box a:hover{
+    text-decoration:underline;
+}
+
+
+
+.footer-box ul{
+    padding: 8px;
+    margin-left: none;
+    color: #DDD;
+}
+
+.footer-box p{
+    font-weight: bolder;
+    font-size: 1.2rem;
+    padding: 10px;
+    color: white;
+}
+
+
+/* last container */
+
+.last-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 0.5px solid white;
+    background-color: #222f3d;
+    width: 100%;
+    height: 70px;
+}
+
+.last-container img{
+    width: 115px;
+    height: 50px;
+}
+
+.last-mid{
+    border: 0.5px solid white;
+}
+
